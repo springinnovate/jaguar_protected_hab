@@ -1,0 +1,17 @@
+3 intersections
+    * "admin area" -- this is features
+        * 'name' 
+    * "KBA" -- specific biodiversity (will be jaguar, likely binary)
+        * "the entire thing" - merge into one polygon
+    * "protected areas" -- features
+        * IUCN_CAT
+
+
+    KBA in admin.name
+    protected.IUCN_CAT x admin.name
+
+    (kba & protected.IUCN_CAT) x admin.name
+
+* in each country/province what % of area is jag 
+    * AND what % of area is protected 
+    * & what % of jag is protected in that country/province
